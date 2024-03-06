@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "sans";
+  background-color: rgb(61, 29, 90);
+  user-select: none;
+}
+@font-face {
+  font-family: "sans";
+  src: url("./fonts/sans.ttf");
+}
+h1 {
+  text-align: center;
+  margin-top: 8%;
+  color: antiquewhite;
+  font-family: "Arvo", cursive;
+  text-transform: uppercase;
+}
+.keys {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+  min-height: 40vh;
+  align-items: center;
+}
+.key {
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+  padding: 1% 1%;
+  border: 2px solid #f9f9f9;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.07s ease;
+  font-size: 1.5rem;
+  color: white;
+}
+kbd {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 3rem;
+}
+span {
+  font-weight: 100;
+}
+.sound {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #bb86fc;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: #bb86fc;
+  box-shadow: 0 0 1rem #bb86fc;
+}
+.usage {
+  margin-top: 20px;
+  text-align: center;
+  color: antiquewhite;
+}
+.usage h2 {
+  text-transform: uppercase;
+  font-family: "Arvo", cursive;
+}
+.usage p {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
