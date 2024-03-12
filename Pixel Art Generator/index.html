@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Art Generator</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-container">
+        <div class="grid-width">
+          <label for="range-width">Grid Width</label>
+          <input id="range-width" type="range" maxlength="35" minlength="1" />
+          <span class="width-value">00</span>
+        </div>
+        <div class="grid-height">
+          <label for="range-width">Grid Height</label>
+          <input id="range-height" type="range" min="1" max="35" />
+          <span class="height-value">00</span>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="button" id="create-grid">Create Grid</button>
+        <button class="button" id="clear-grid">Clear Grid</button>
+        <input type="color" id="color" />
+        <button class="button" id="erase">Erase</button>
+        <button class="button" id="paint">Paint</button>
+      </div>
+      <div class="result-container"></div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
