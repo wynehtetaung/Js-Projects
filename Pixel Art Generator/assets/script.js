@@ -52,7 +52,7 @@ createGridBtn.addEventListener("click", () => {
       col.classList.add("gridCol");
       col.setAttribute("id", `girdCol${count}`);
       col.addEventListener(events[deviceType].down, () => {
-        // draw = true;
+        draw = true;
         if (erase) {
           col.style.backgroundColor = "transparent";
         } else {
